@@ -1,0 +1,25 @@
+h1{
+    background-color: blueviolet;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: azure;
+   
+}
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+body{
+    background-image:url("../images/weather.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1:hover{
+    color: black;
+    background-color: blanchedalmond;
+}

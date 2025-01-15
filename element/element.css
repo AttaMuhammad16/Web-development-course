@@ -1,0 +1,13 @@
+/* span.special,em.special,li.special{
+    color: coral;
+    font-weight: bold;
+} */
+
+
+a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    text-decoration: none;
+    cursor: nesw-resize;
+}

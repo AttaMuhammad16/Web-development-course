@@ -1,0 +1,25 @@
+.myName{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+.para{
+    text-indent: 5%;
+    font-size: 20px;
+    text-align: start;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 2;
+
+}
+
+.para:hover{
+    text-shadow: 3px 3px 3px black;
+    transition: 800ms;
+    transform-origin: left;
+}

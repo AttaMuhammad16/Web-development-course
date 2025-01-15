@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* nav bar */
+.nav-bar{
+    background-color: #0f1111;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+        
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-image: url("../images/star.png");    
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+/* address */
+.nav-address{
+    margin-left: 10px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.locationImg{
+    height: 20px;
+    width: 20px;
+}
+
+.address1{
+    color: gainsboro;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.address2{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+/* search */
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 1px solid orange;
+    border-radius: 4px;
+}
+
+
+
+.searchSelect{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.topSearchEdt{
+    background-color: #f3f3f3;
+    height: 38px;
+    width: 100%;
+    text-align: start;
+    font-size: 18px;
+    border: none;
+    padding-left: 10px;
+}
+
+.searchImg{
+    height: 23px;
+    width: 23px;
+    height: 35px;
+    width: 35px;
+    padding: 2.5px;
+    background-color: rgb(255, 159, 16);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-self: center;
+}
+
+
+/* login text */
+p{
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+
+/* cart image */
+
+.cartDiv{
+    display: flex;
+    align-items: center;
+}
+
+.cartimg{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+/* second nav */
+
+.secondNav{
+    background-color: #212545;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondChildDev{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 25px;
+    height: 25px;
+}
+
+p{
+    margin-left: 15px;
+    font-size: .85rem;
+}
+.Shop{
+    margin-right: 20px;
+}
+
+
+
+/* hero background */
+
+.heroSection{
+    background-image: url("hero_img.jpeg");
+    width: 100vw;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    width: 80vw;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.hero-msg a{
+    color: aqua;
+}
+.hero-msg:hover{
+    box-shadow: 3px 3px 8px rgb(124, 171, 237); /* Add elevation */
+
+}
+
+
+
+
+
+/* item rows */
+
+
+
+/* parent */
+.shope-boxsection{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+}
+
+.mobileDiv{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    text-align: center;
+}
+.mobileDiv:hover{
+    border-radius: 5px;
+    border: 1px solid rgb(74, 74, 226);
+    box-shadow: 3px 3px 8px rgb(215, 134, 184); /* Add elevation */
+    
+}
+
+.mobileImg{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}    
+
+.mobileTitle{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mobilePrice{
+    color: blue;
+    text-align: start;
+    font-size: 16px;
+
+}
+
+
+/* second div*/
+.furnitureDiv{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    text-align: center;
+    
+}
+
+.furnitureDiv:hover{
+    border-radius: 5px;
+    border: 1px solid rgb(74, 74, 226);
+    box-shadow: 3px 3px 8px rgb(215, 134, 134); /* Add elevation */
+}
+
+.furnitureImg{
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}    
+
+.furnitureTitle{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.furnitureSeeMore{
+    color: blue;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.perfumeDiv{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    height: 300px;
+    margin-top: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    text-align: center;
+}
+
+.perfumeDiv:hover{
+    border-radius: 5px;
+    border: 1px solid rgb(74, 74, 226);
+    box-shadow: 3px 3px 8px rgb(134, 208, 215); /* Add elevation */
+}
+
+.perfumeImg{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    align-self: center;
+}    
+
+.perfumeTitle{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.perfumeSeeMore{
+    color: blue;
+    text-align: start;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+.headPhoneDiv{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    text-align: center;
+}
+
+.headPhoneDiv:hover{
+    border-radius: 5px;
+    border: 1px solid rgb(74, 74, 226);
+    box-shadow: 3px 3px 8px #213a7a; /* Add elevation */
+}
+
+.headPhoneImg{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    align-self: center;
+}    
+
+.headPhoneTitle{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.headPhoneSeeMore{
+    color: blue;
+    text-align: start;
+    font-size: 16px;
+
+}
+
+
+
+
+
+/* footer */
+.foot-panel1{
+    background-color: #213a7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.foot-panel2{
+    background-color: #212545;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8rem;
+    color: white;
+    padding-top: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    font-weight: lighter;
+    margin: 4px;
+}
+
+
+.footer-panel3{
+    background-color: #212545;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.copyright{
+    margin-top: 5px;
+}
