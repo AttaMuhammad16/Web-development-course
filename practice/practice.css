@@ -1,0 +1,173 @@
+.main{
+    width: 1000px;
+    height: 540px;
+    border: 1px solid black;
+    align-self: center;
+    margin: auto;
+}
+hr{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: aliceblue;
+}
+
+
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.navItems{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Home{
+    float: left;
+    width: 200px;
+}
+
+.About{
+    float: left;
+    width: 200px;
+}
+
+
+.Course{
+    float: left;
+    width: 200px;
+}
+
+.Gallery{
+    float: left;
+    width: 200px;
+}
+
+.Contact-Us{
+    float: left;
+    width: 200px;
+}
+
+
+.v-items-image-parent{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.vertical-nav-Items{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
+}
+
+
+.v-Home{
+    height: 40px;
+
+}
+.v-About{
+    height: 40px;
+}
+.v-Course{
+    height: 40px;
+}
+
+.v-Gallery{ 
+       height: 40px;
+}
+
+.v-Contact-Us{
+    height: 40px;
+}
+
+.image {
+    width: 750px;
+    height: 100%;
+    background-image: url("../images/pdf.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; /* Centers the background image */
+}
+
+
+
+
+.clientTv{
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.div-images{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.img1{
+    width: 330px;
+    height: 100%;
+    align-content: center;
+}
+
+.img2{
+    width: 330px;
+    height: 100%;
+    align-content: center;
+
+}
+
+.img3{
+    width: 330px;
+    height: 100%;
+    align-content: center;
+}
+
+
+
+.footer-div {
+    width: 100%;
+    height: 33px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.home{
+    margin: 3px;
+}
+.about{
+    margin: 3px;
+
+}
+
+.contact-us{
+    margin: 3px;
+
+}
+
+
+
+
+
